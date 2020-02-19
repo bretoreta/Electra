@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ELECTRA | Login</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>Login</h1>
+			<form action="authenticate.php" method="post" onsubmit="auth()">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+				<p>Not a member? You can</p>
+			</form>
+			<div class="register">
+				<a href="register.php"><input type="button" value="Register"></a>
+			</div>
+		</div>
+	</body>
+</html>

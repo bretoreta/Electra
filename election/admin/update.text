@@ -1,0 +1,1 @@
+UPDATE `accounts` SET `votestatus` = 'Voted' WHERE `accounts`.`id` = 6 
